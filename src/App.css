@@ -1,0 +1,183 @@
+:root {
+  --main-font-color: #333131;
+  --trim: #d13839;
+}
+
+body {
+  color: var(--main-font-color);
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+header div p {
+  text-align: center;
+  padding-top: 25px;
+  font-weight: 300;
+}
+
+#topBar {
+  height: 70px;
+  background-color: var(--trim);
+  margin-top: -20px;
+  margin-left: -10px;
+  margin-right: -10px;
+  color: white;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+nav {
+  margin-bottom: 25px;
+  margin-left: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: var(--main-font-color);
+  display: inline-block;
+  margin-right: 3em;
+}
+
+#saleNav {
+  font-weight: 700;
+  color: var(--trim);
+}
+
+main {
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+}
+
+article {
+  flex-basis: 65%;
+  margin-right: 25px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 23px;
+}
+
+aside {
+  flex-basis: 35%;
+}
+
+hr {
+  border: 0.5px solid var(--main-font-color);
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.choices {
+  border: 2px solid var(--main-font-color);
+  height: 50px;
+  width: 40px;
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.choiceText {
+  margin-top: 15px;
+}
+
+.choices:hover {
+  cursor: pointer;
+}
+
+#choiceBlack {
+  background-color: #1f1a1c;
+}
+
+#choiceBlue {
+  background-color: #173481;
+}
+
+#choiceWhite {
+  background-color: f9f5f5;
+}
+
+#choiceRed {
+  background-color: #d42d24;
+}
+
+button {
+  height: 40px;
+  width: 250px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: white;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: var(--trim);
+  border: none;
+}
+
+input {
+  border: 1px solid var(--main-font-color);
+  height: 40px;
+  padding-left: 3px;
+  margin-top: 8px;
+  width: 244px !important;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;
+  color: var(--main-font-color);
+}
+
+#checkout {
+  margin-top: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#checkout {
+  display: block;
+}
+.styledSelect {
+  /* margin: 10px; */
+  background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+  height: 40px;
+  overflow: hidden;
+  width: 250px;
+  background-color: var(--trim);
+}
+
+.styledSelect select {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  height: 40px;
+  padding: 5px; /* If you add too much padding here, the options won't show in IE */
+  width: 268px;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.selected {
+  border: 2px solid var(--trim);
+  color: var(--trim);
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.transparency {
+  opacity: 0.7;
+}
